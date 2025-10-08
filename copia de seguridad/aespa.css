@@ -1,0 +1,40 @@
+#inicioae {
+    background-color: rgb(187, 63, 63);
+    background-image: url(../imagenes/NR_aespa_header.jpg);
+    background-position: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 30px;
+    text-align: left;
+    color: rgb(240, 232, 232);
+}
+#wiki {
+    display: flex;
+    flex-direction: row;
+}
+.textoAE {
+    width: 75%;
+}
+.derecha {
+    width: 25%;
+    padding-left: 10px;
+    border-left: 2px solid rgb(71, 31, 31);
+}
+.fotopeque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+}
+.fotopeque img {
+    width: calc(50% - 1em);
+    margin: 0.5em;
+}
+.derecha {
+    display: flex;
+}
+@media (max-width: 1000px) {
+
+}

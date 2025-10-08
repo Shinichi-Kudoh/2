@@ -1,0 +1,171 @@
+#games {
+    background-image: url(../imagenes/ff7-header2.jpg);
+    
+}
+#games-lucha {
+    background-image: url(../imagenes/sfd-characters-banner.jpg);
+    background-position: top;
+}
+#games-rpg {
+    background-image: url(../imagenes/rpg-banner.png);
+}
+/*#games .dropbtn {
+    color: black;
+}*/
+.bloque-madre {
+    height: 40em;
+}
+.bloque-juegos {
+    display: flex;
+
+}
+.bloque {
+    display: flex;
+    border: 6px solid rgb(226, 224, 224);
+}
+.bloque-largo {
+    display: flex;
+    width: 50%;
+    height: 38em;
+}
+.bloque-fondo {
+    border: 6px solid rgb(226, 224, 224);
+    position: relative;
+}
+.contenido {
+    text-align: end;
+    background-color: rgb(226, 224, 224, 0.5);
+}
+.contenido h2 {
+    padding: 0;
+}
+#juegos1 {
+    max-height: 50%;
+}
+#juegos2 {
+    max-width: 100%;
+}
+div #juegos3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.bloque-madre a {
+    color: rgb(187, 63, 63);
+    text-decoration: none;
+    
+}
+.bloque-madre a:hover {
+    background-color: rgb(226, 224, 224, 0.5);
+}
+.bloque-madre .bloque-fondo:hover {
+    transform: scale(1.05);
+    filter: none;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    
+}
+#lucha {
+    background-image: url(../imagenes/lucha.jpg);
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#rpg {
+    background-image: url(../imagenes/rpg.jpg);
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 17em;
+    width: 100%;
+}
+#moba {
+    background-image: url(../imagenes/moba.jpg);
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 18em;
+}
+#shooter {
+    background-image: url(../imagenes/shooter.jpg);
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 18em;
+}
+.stretched-link {
+    position: absolute; /* Posiciona el enlace de forma absoluta dentro del padre */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1; /* Asegura que el enlace esté por encima de otros elementos interactivos */
+    display: block; /* Asegura que el enlace ocupe todo el área del contenedor */
+    content: ""; /* Necesario en algunas versiones de Bootstrap, puede no ser necesario aquí */
+}
+iframe {
+    width: 100%;
+}
+#paneles-conten {
+    text-align: center;
+    width: 60vw;
+    height: 100%;
+    margin: auto;
+}
+.panel-input {
+    display: none;
+}
+.panel label {
+    display: block;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(187, 63, 63);
+    margin-bottom: 10px;
+    
+}
+.panel-contenido {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+.panel-input:checked~div.panel-contenido {
+    height: auto;
+    margin-bottom: 4px;
+}
+#combos figcaption{
+    text-align: center;
+}
+@media (max-width: 1000px) {
+    .bloque-madre {
+    height: 40em;
+    }
+    .bloque-juegos {
+        display: flex;
+        flex-direction: column;
+    }
+    .bloque-largo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 16em;
+    }
+    #juegos1 {
+    max-height: 100%;
+    }
+    #juegos2 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    div #juegos3{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    }
+    footer {
+        display: none;
+    }
+}

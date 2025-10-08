@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coches y evangelion</title>
+</head>
+<link rel="shortcut icon" href="imagenes/nerv-rojo.png" type="image/x-icon">
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="styles/cajas.css">
+<body>
+    <header id="inicio">
+        <img src="https://preview.redd.it/eftjy5swogq71.png?width=760&format=png&auto=webp&s=f14947dc2d7f35355e88b41fd05ab45a47e79cba" alt="coche-rojo" id="nerv">
+        <h1>Coches y Evangelion</h1>
+        <!--Menu desplegable al pasar el raton por encima-->
+        <p>
+            <!--<a href="">Por Saúl</a>-->
+            <div class="dropdown">
+                <button class="dropbtn">Por Saúl</button>
+                <div class="dropdown-content">
+                    <a href="/2/paginas/games/games.html">Games</a>
+                    <a href="#">Null</a>
+                    <a href="#">Null</a>
+                </div>
+            </div>
+        </p>
+    </header>
+    <!--barra de navegavion-->
+    <nav>
+        <input type="checkbox" name="menu" id="menu">
+        <label for="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </label>
+        <ul>
+            <li>
+                <a href="../2/paginas/coches.html">Coches</a>
+            </li>
+            <li>
+                <a href="../2/paginas/eva.html">Evangelion</a>
+            </li>
+            <li>
+                <a href="../2/paginas/musica.html">Musica</a>
+            </li>
+            <li>
+                <a href="../2/paginas/aespa.html">AESPA</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div id="caja-inicio">
+            <div class="cajas" id="caja1">
+                <div class="texto">
+                    <h2>Sobre coches</h2>
+                    <p>Aunque no me guste conducir hay ciertos coches que me gustan mucho esteticamente y cada cual no tiene nada que ver con los otros.</p>
+                </div>
+                <div class="imagenes">
+                    <figure>
+                        <img src="imagenes/911.jpg" alt="911" class="coches">
+                        <!--<figcaption>Foto de <a href="https://unsplash.com/es/@andru_ak?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Akabane</a> en <a href="https://unsplash.com/es/fotos/un-coche-aparcado-frente-a-una-gasolinera-n-VBWmziyVU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></figcaption>-->
+                    </figure>
+                </div>
+            </div>
+            <div class="cajas" id="caja2">
+                <div class="imagenes">
+                    <figure>
+                        <img src="imagenes/eva01.jpg" alt="eva01" class="coches">
+                        <!--<figcaption>Foto de <a href="https://unsplash.com/es/@declansun?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Declan Sun</a> en <a href="https://unsplash.com/es/fotos/una-estatua-de-un-hombre-sosteniendo-una-espada-gigante-I6zjy5xqp6o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></figcaption>-->
+                    </figure>
+                </div>
+                <div class="texto">
+                    <h2>Sobre Evangelion</h2>
+                    <p>Es una de las series animadas que mas me gustan por no decir que la que mas y que habre vuetlo a ver desmasiadas veces.</p>
+                </div>
+                <!--<ul class="text-foto">
+                    <li></li>
+                    <li></li>
+                </ul>-->
+            </div>
+            <div class="cajas" id="caja3">
+                <div class="texto">
+                    <h2>Sobre Musica</h2>
+                    <p>Una pequeña seleccion de musica que me gusta, esta vez de origen asiatico y animes de la misma region.</p>
+                </div>
+                <div class="musica">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7p1LpBuLf9PmgSBUETVVp3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!--Cajas puestas para que el copi este en el centro y las otras esten en horizontal (esta invertido) -->
+        <div id="caja-madre">  
+            <div id="copi">
+                <p>&copy; Pagina creada por Saul</p>
+            </div>
+            <div id="caja-datos">
+                <div id="caja-contacto">
+                    <a href="tel:+34564566" class="contacto"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                        </svg>
+                        Telefono: +34564566
+                    </a>
+                    <a href="mailto:" class="contacto"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m7.875 14.25 1.214 1.942a2.25 2.25 0 0 0 1.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 0 1 1.872 1.002l.164.246a2.25 2.25 0 0 0 1.872 1.002h2.092a2.25 2.25 0 0 0 1.872-1.002l.164-.246A2.25 2.25 0 0 1 16.954 9h4.636M2.41 9a2.25 2.25 0 0 0-.16.832V12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 0 1 .382-.632l3.285-3.832a2.25 2.25 0 0 1 1.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0 0 21.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 0 0 2.25 2.25Z" />
+                        </svg>
+                        Correo electronico
+                    </a>
+                </div>
+                <div id="caja-referencias">
+                    <em>
+                        Foto de <a href="https://unsplash.com/es/@andru_ak?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Akabane</a> en <a href="https://unsplash.com/es/fotos/un-coche-aparcado-frente-a-una-gasolinera-n-VBWmziyVU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </em>
+                
+                    <em>
+                        Foto de <a href="https://unsplash.com/es/@konstantin_with_camera?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Konstantin Remy</a> en <a href="https://unsplash.com/es/fotos/un-coche-blanco-conduciendo-por-una-pista-de-carreras-0NHbOx6OvXE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </em>
+                    <em>
+
+                    </em>
+                </div>
+            </div>
+        </div>
+        <a href="#inicio"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08003a6a-b3ee-4cab-8440-bba1b7f3d21e/d482lwp-ebf27c1c-d477-4051-967e-f58b3ee2e793.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8wODAwM2E2YS1iM2VlLTRjYWItODQ0MC1iYmExYjdmM2QyMWUvZDQ4Mmx3cC1lYmYyN2MxYy1kNDc3LTQwNTEtOTY3ZS1mNThiM2VlMmU3OTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lg5hZBX2HTAz2hY21Yqmb9S6IUArEYhAiOSUokrCVTs" alt="seele" id="seele"></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+.cajas {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cajaSM {
+    width: 25%;
+    padding: 5px;
+}
+.texto {
+    max-width: 50%;
+    min-width: 50%;
+}
+.imagenes {
+    max-width: 50%;
+    min-width: 50%;
+    align-items: center;
+}
+@media (max-width: 1000px) {
+    figcaption {
+        display: none;
+    }
+    .cajas {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .coches {
+        height: 100%;
+        max-width: calc(75vw - 1.5rem);
+        object-fit: scale-down;
+        width: auto;
+    }
+    #caja2 {
+        flex-direction: column-reverse;
+    }
+    .texto {
+        max-width: 100%;
+    }
+    .imagenes {
+        max-width: 100%;
+        align-items: center;
+    }
+    .cajaSM {
+        min-width: 100%;
+    }
+}

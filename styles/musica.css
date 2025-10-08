@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+/*
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.michroma-regular {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+/*hacer de esta forma mejor que en style*/
+body {
+    color: #555;
+    background-color: rgb(226, 224, 224);
+    
+}
+nav {
+    background-color: rgb(226, 224, 224);
+    position: sticky;
+    top: 0;
+}
+#menu {
+    display: none;
+}
+nav svg {
+    width: 30px;
+    height: 30px;
+} 
+nav ul {
+    display: none;
+}
+/*Por si pongo una foto en el nav*/
+/*
+nav a {
+    display: none;
+}
+*/
+nav a img {
+    height: 200px
+}
+ul.menu-desplegable {
+    list-style: none;
+    padding: 0;
+}
+/*ul.menu-desplegable li {
+    padding: 8px 14px;
+}*/
+ul.menu-desplegable a{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8px 14px;
+    border: 1px solid rgb(187, 63, 63);
+    border-radius: 290486px;
+    color: #555;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color,
+}
+ul.menu-desplegable a:hover {
+    background: rgb(187, 63, 63);
+    color: white;
+}
+input:checked ~ ul {
+    display: block;
+}
+input:checked ~ a {
+    display: block;
+}
+.menu-desplegable {
+    display: none;
+}
+input:checked ~ .menu-desplegable {
+    display: block;
+}
+@media (min-width: 1000px) {
+    nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(226, 224, 224);
+    }
+    nav input{
+        display: none;
+    }
+    nav label { 
+        display: none;
+    }
+    ul.menu-desplegable {
+        display: block;
+        display: flex;
+    }
+    a.menu-desplegable {
+        display: block;
+    }
+}

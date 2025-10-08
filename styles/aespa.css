@@ -1,0 +1,104 @@
+#inicioae {
+    background-color: rgb(187, 63, 63);
+    background-image: url(../imagenes/NR_aespa_header.jpg);
+    background-position: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 30px;
+    text-align: left;
+    color: rgb(240, 232, 232);
+}
+#wiki {
+    display: flex;
+    
+}
+.textoAE {
+    max-width: 100%;
+}
+.fotopeque img {
+    width: calc(50% - 1em);
+    margin: 0.5em;
+}
+.fotopeque img:hover {
+    transform: scale(1.2);
+    filter: none;
+    transition: all 0.3s ease-in-out;
+}
+.fotogrande img {
+    width: 100%;
+}
+.fotogrande img:hover {
+    transform: scale(1.1);
+    filter: none;
+    transition: all 0.3s ease-in-out;
+}
+.album-desplegable h2 {
+    font-size: 100%;
+}
+.fotopeque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.derecha {
+    position: sticky;
+    top: 0;
+}
+#menu-album {
+    display: none;
+}
+.derecha svg {
+    width: 30px;
+    height: 30px;
+}
+.album-desplegable{
+    display: none;
+}
+input:checked~.album-desplegable {
+    display: block;
+}
+input:checked #album {
+    display: block;
+}
+#RP {
+    display: flex;
+    float: left;
+}
+
+@media (min-width: 1000px) {
+    .derecha {
+    max-width: 25%;
+    padding-left: 10px;
+    border-left: 2px solid rgb(71, 31, 31);
+    }
+    .derecha input{
+        display: none;
+    }
+    .derecha label {
+        display: none;
+    }
+    div.album-deplegable {
+        display: block;
+        display: flex;
+    }
+    .album-desplegable {
+        display: block;
+    }
+    .fotopeque {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    }
+    .fotopeque img {
+    width: calc(50% - 1em);
+    margin: 0.5em;
+}
+}

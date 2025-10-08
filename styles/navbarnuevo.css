@@ -1,0 +1,79 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: fixed;
+    background-color: brown;
+    top: 0;
+    padding: 5px;
+}
+nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    text-transform: uppercase;
+    padding: 10px 13px;
+    margin: auto;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li:hover {
+    background-color: blueviolet;
+}
+.submenu {
+    display: none;
+    position: absolute;
+}
+nav ul li:hover ul {
+    display: block;
+}
+.submenu a {
+    text-decoration: none;
+}
+#paneles-conten {
+    width: 50vw;
+    height: 100%;
+    margin: 10px auto;
+    border: 2px solid purple;
+    padding: 20px;
+    background-color: white;
+}
+.panel-input {
+    display: none;
+}
+.panel label {
+    display: block;
+    width: calc(100% - 15px);
+    height: 1.8em;
+    border: 1px solid purple;
+    padding: 5px 0 0 15px;
+    font-weight: 600;
+}
+.panel p {
+    padding: 0 15px;
+}
+.panel {
+    margin-bottom: 2px;
+}
+.panel-contenido {
+    width: 100%;
+    border: 1px solid transparent;
+    height: 0;
+    overflow: hidden;
+}
+.panel-input:checked~div.panel-contenido {
+    height: auto;
+    border-color: purple;
+    border-top: none;
+    margin-bottom: 4px;
+}
+iframe {
+    width: 100%;
+}
