@@ -142,6 +142,15 @@ iframe {
     display: flex;
     justify-content: space-around;
 }
+.sub-tabla {
+    display: none;
+    position: absolute;
+    background-color: rgb(226, 224, 224);
+}
+.tablas ul li:hover ul {
+    display: block;
+}
+
 @media (max-width: 1000px) {
     .bloque-madre {
     height: 40em;
@@ -169,7 +178,7 @@ iframe {
     flex-wrap: nowrap;
     flex-direction: column;
     }
-    footer {
+    #games-footer {
         display: none;
     }
     #tablas-rpg {
