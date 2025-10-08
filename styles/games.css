@@ -138,6 +138,10 @@ iframe {
 #combos figcaption{
     text-align: center;
 }
+#tablas-rpg {
+    display: flex;
+    justify-content: space-around;
+}
 @media (max-width: 1000px) {
     .bloque-madre {
     height: 40em;
@@ -167,5 +171,9 @@ iframe {
     }
     footer {
         display: none;
+    }
+    #tablas-rpg {
+        display: flex;
+        flex-direction: column;
     }
 }
