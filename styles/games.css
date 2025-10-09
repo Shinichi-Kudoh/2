@@ -171,12 +171,12 @@ input[name="tab"] {
     position: absolute;
     left: -1000em;
 }
-main label {
+#games-shooter-label label {
     padding: 5px 10px 0;
     border: 1px solid rgb(71, 31, 31);
     border-bottom: none;
 }
-input:checked+label {
+#games-shooter-label input:checked+label {
     border-bottom: none;
     background-color: rgb(71, 31, 31);
     color: rgb(187, 63, 63);
