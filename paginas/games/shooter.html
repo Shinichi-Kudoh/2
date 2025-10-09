@@ -9,65 +9,34 @@
     <link rel="stylesheet" href="../../styles/games.css">
 </head>
 <body>
-    <header id="games">
+    <header id="games-shooter">
         <img src="https://preview.redd.it/eftjy5swogq71.png?width=760&format=png&auto=webp&s=f14947dc2d7f35355e88b41fd05ab45a47e79cba" alt="coche-rojo" id="nerv">
-        <h1>Videojuegos</h1>
-        <p>
-            <!--<a href="">Por Saúl</a>-->
-            <!--Menu desplegable para ir a paginas no relacionadas con este tema-->
-            <div class="dropdown">
-                <button class="dropbtn">Por Saúl</button>
-                <div class="dropdown-content">
-                    <a href="../index.html">Coches y Evangelion</a>
-                    <a href="#">Coches</a>
-                    <a href="#">Evangelion</a>
-                </div>
-            </div>
-        </p>
+        <h1>Shooter games</h1>
+        
     </header>
-    <main>
-        <section class="bloque-madre">
-            <div class="bloque-juegos">
-                <div class="bloque-largo">
-                    <div class="bloque-fondo" id="lucha">
-                        <div class="contenido">
-                            <h2>
-                                <a href="../games/lucha.html" class="stretched-link">Fighting games</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="bloque-largo" id="juegos3">
-                    <div class="bloque" id="juegos1">
-                        <div class="bloque-fondo" id="rpg">
-                            <div class="contenido">
-                                <h2>
-                                    <a href="../games/rpg.html" class="stretched-link">RPG games</a>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bloque" id="juegos2">
-                        <div class="bloque-fondo" id="moba">
-                            <div class="contenido">
-                                <h2>
-                                    <a href="" class="stretched-link">MOBA games</a>
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="bloque-fondo" id="shooter">
-                            <div class="contenido">
-                                <h2>
-                                    <a href="" class="stretched-link">Shooter games</a>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer id="games-footer">
+    <nav>
+        <input type="checkbox" name="menu" id="menu">
+        <label for="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </label>
+        <ul>
+            <li>
+                <a href="../games/games.html">Inicio</a>
+            </li>
+            <li>
+                <a href="../games/lucha.html">Fighting games</a>
+            </li>
+            <li>
+                <a href="../games/rpg.html">RPG games</a>
+            </li>
+            <li>
+                <a href="../games/moba.html">MOBA games</a>
+            </li>
+        </ul>
+    </nav>
+    <footer>
         <!--Cajas puestas para que el copi este en el centro y las otras esten en horizontal (esta invertido) -->
         <div id="caja-madre">  
             <div id="copi">
@@ -87,6 +56,10 @@
                     </a>
                 </div>
             </div>
+        </div>
+        <!--
+        <a href="#" id="boton-inicio"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08003a6a-b3ee-4cab-8440-bba1b7f3d21e/d482lwp-ebf27c1c-d477-4051-967e-f58b3ee2e793.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8wODAwM2E2YS1iM2VlLTRjYWItODQ0MC1iYmExYjdmM2QyMWUvZDQ4Mmx3cC1lYmYyN2MxYy1kNDc3LTQwNTEtOTY3ZS1mNThiM2VlMmU3OTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lg5hZBX2HTAz2hY21Yqmb9S6IUArEYhAiOSUokrCVTs" alt="seele" id="seele"></a>
+        -->
     </footer>
 </body>
 </html>

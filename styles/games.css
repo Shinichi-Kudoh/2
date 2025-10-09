@@ -9,6 +9,12 @@
 #games-rpg {
     background-image: url(../imagenes/rpg-banner.png);
 }
+#games-moba {
+    background-image: url(../imagenes/moba-banner.png);
+}
+#games-shooter {
+    background-image: url(../imagenes/shooter-header.jpg);
+}
 /*#games .dropbtn {
     color: black;
 }*/
@@ -53,7 +59,6 @@ div #juegos3{
 .bloque-madre a {
     color: rgb(187, 63, 63);
     text-decoration: none;
-    
 }
 .bloque-madre a:hover {
     background-color: rgb(226, 224, 224, 0.5);
@@ -146,11 +151,22 @@ iframe {
     display: none;
     position: absolute;
     background-color: rgb(226, 224, 224);
+    border: 1px solid rgb(187, 63, 63);
+    padding-right: 5px;
 }
 .tablas ul li:hover ul {
     display: block;
 }
-
+#intro-moba img {
+    float: right;
+}
+#moba-juegos a {
+    color: rgb(187, 63, 63);
+    text-decoration: none;
+}
+#boton-inicio {
+    display: none;
+}
 @media (max-width: 1000px) {
     .bloque-madre {
     height: 40em;
@@ -184,5 +200,12 @@ iframe {
     #tablas-rpg {
         display: flex;
         flex-direction: column;
+    }
+    #Map_of_MOBA {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #boton-inicio {
+        display: contents;
     }
 }
