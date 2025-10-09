@@ -164,8 +164,38 @@ iframe {
     color: rgb(187, 63, 63);
     text-decoration: none;
 }
-#boton-inicio {
+.boton-inicio {
     display: none;
+}
+input[name="tab"] {
+    position: absolute;
+    left: -1000em;
+}
+main label {
+    padding: 5px 10px 0;
+    border: 1px solid rgb(71, 31, 31);
+    border-bottom: none;
+}
+input:checked+label {
+    border-bottom: none;
+    background-color: rgb(71, 31, 31);
+    color: rgb(187, 63, 63);
+}
+div.cont {
+    
+    border: 1px solid rgb(71, 31, 31);
+    opacity: 0;
+    display: none;
+}
+.cont {
+    padding: 15px;
+}
+input[value="1"]:checked ~ div.contenedor div.cont:nth-child(1), 
+input[value="2"]:checked ~ div.contenedor div.cont:nth-child(2), 
+input[value="3"]:checked ~ div.contenedor div.cont:nth-child(3),
+input[value="4"]:checked ~ div.contenedor div.cont:nth-child(4) {
+    opacity: 1;
+    display: block;
 }
 @media (max-width: 1000px) {
     .bloque-madre {
@@ -205,7 +235,7 @@ iframe {
         display: flex;
         flex-direction: column-reverse;
     }
-    #boton-inicio {
+    .boton-inicio {
         display: contents;
     }
 }

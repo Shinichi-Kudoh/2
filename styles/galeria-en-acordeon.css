@@ -6,7 +6,7 @@
   overflow: hidden;
   /* ocultamos lo que sobresalga de las imágenes del contenedor*/
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
-  border: 7px solid rgba(189, 188, 188, 0.6);
+  border: 7px solid rgba(187, 63, 63, 0.6);
 }
 
 /* estilo para las imágenes de la galería */
@@ -18,7 +18,7 @@
   left: 50px;
   /* !!Ancho de la parte visible!! */
   width: 335px;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 0 1px rgba(187, 63, 63, 0.6);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
