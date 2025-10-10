@@ -1,3 +1,4 @@
+/*Imagen para el header de cada pestania de la pagina*/
 #games {
     background-image: url(../imagenes/ff7-header2.jpg);
     
@@ -18,6 +19,7 @@
 /*#games .dropbtn {
     color: black;
 }*/
+/*Para el menu de la primera pestania*/
 .bloque-madre {
     height: 40em;
 }
@@ -112,6 +114,7 @@ div #juegos3{
     display: block; /* Asegura que el enlace ocupe todo el área del contenedor */
     content: ""; /* Necesario en algunas versiones de Bootstrap, puede no ser necesario aquí */
 }
+/*para los paneles de contenido de la pestania lucha*/
 iframe {
     width: 100%;
 }
@@ -143,6 +146,7 @@ iframe {
 #combos figcaption{
     text-align: center;
 }
+/*para las tablas de la pestania rpg*/
 #tablas-rpg {
     display: flex;
     justify-content: space-around;
@@ -157,6 +161,7 @@ iframe {
 .tablas ul li:hover ul {
     display: block;
 }
+/*para la pestania moba*/
 #intro-moba img {
     float: right;
 }
@@ -167,6 +172,7 @@ iframe {
 .boton-inicio {
     display: none;
 }
+/*para la pestania shooter*/
 input[name="tab"] {
     position: absolute;
     left: -1000em;
@@ -237,5 +243,9 @@ input[value="4"]:checked ~ div.contenedor div.cont:nth-child(4) {
     }
     .boton-inicio {
         display: contents;
+    }
+    #games-shooter-label {
+        display: flex;
+        flex-direction: column;
     }
 }
