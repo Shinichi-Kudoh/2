@@ -118,6 +118,9 @@ div #juegos3{
 iframe {
     width: 100%;
 }
+.paneles label:hover {
+    cursor: pointer;
+}
 #paneles-conten {
     text-align: center;
     width: 60vw;
@@ -151,6 +154,9 @@ iframe {
     display: flex;
     justify-content: space-around;
 }
+.tablas li::marker{
+    color: rgb(187, 63, 63);
+}
 .sub-tabla {
     display: none;
     position: absolute;
@@ -164,6 +170,7 @@ iframe {
 /*para la pestania moba*/
 #intro-moba img {
     float: right;
+    padding-left: 10px;
 }
 #moba-juegos a {
     color: rgb(187, 63, 63);
@@ -181,6 +188,7 @@ input[name="tab"] {
     padding: 5px 10px 0;
     border: 1px solid rgb(71, 31, 31);
     border-bottom: none;
+    cursor: pointer;
 }
 #games-shooter-label input:checked+label {
     border-bottom: none;
