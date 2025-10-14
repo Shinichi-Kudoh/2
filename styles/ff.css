@@ -1,0 +1,109 @@
+body {
+    color: #555;
+    background-color: rgb(226, 224, 224);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+header {
+    background-color:aquamarine;
+    text-align: left;
+    background-size:cover;
+    background-position-y: 20%;
+    padding: 20px 30px;
+    background-image: url(../imagenes/ff-banner.png);
+}
+header img {
+    height: 50%;
+    width: 30%;
+}
+.dropdown {
+    position: relative; /* Clave para posicionar el contenido */
+    display: inline-block; /* Opcional, para que el div ocupe solo el contenido */
+}
+.dropdown-content {
+    display: none; /* Oculto por defecto */
+    position: absolute; /* Posicionamiento absoluto */
+    z-index: 1; /* Para que esté por encima de otros elementos */
+}
+.dropdown-content a {
+    border: 2px solid black;
+    background: rgb(114, 180, 197);
+    color: white;
+    border-radius: 290486px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /* Para que cada enlace ocupe su propia línea */
+}
+.dropdown-content a:hover {
+    background: linear-gradient(to bottom right, blue, purple);
+}
+.dropdown:hover .dropdown-content {
+    display: block; /* Muestra el submenú al pasar el ratón */
+}
+.dropbtn {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 290486px;
+    color: black;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+    cursor: pointer;
+}
+.dropbtn:hover {
+    background: linear-gradient(to bottom right, blue, purple);
+    color: white;
+}
+nav {
+    border-bottom: 2px solid black;
+    margin-right: 10%;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 0;
+    display: none;
+}
+input:checked ~ ul {
+    display: block;
+}
+input:checked ~ a {
+    display: block;
+}
+input:checked ~ .menu-desplegable {
+    display: block;
+}
+nav li {
+    list-style: none;
+    border-bottom: 2px solid black;
+}
+@media (min-width: 1000px) {
+    nav {
+        border-bottom: 2px solid black;
+        margin-right: 10%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding-left: 0;
+    }
+    nav label {
+        display: none;
+    }
+    
+}
