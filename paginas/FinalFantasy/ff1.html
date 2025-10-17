@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Fantasy</title>
+    <link rel="stylesheet" href="../../styles/ff.css">
+    <link rel="stylesheet" href="../../styles/ff-label.css">
+    <link rel="stylesheet" href="../../styles/redes.css">
+    <link rel="stylesheet" href="../../styles/boton-musica.css">
+</head>
+<body>
+    <header>
+        <img src="../../imagenes/ff1-titulo.png" alt="ff-logo">
+        <br>
+       
+    </header>
+     <nav>
+        <label class="hamburger">
+            <input type="checkbox" />
+            <svg viewBox="0 0 32 32">
+                <path
+                d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+                class="line line-top-bottom"
+                ></path>
+                <path d="M7 16 27 16" class="line">
+                    <ul class="menu-desplegable">
+                        <li><a href="ff-index.html">Inicio</a></li>
+                        <li><a href="">FF II</a></li>
+                        <li><a href="">FF III</a></li>
+                        <li><a href="">FF IV</a></li>
+                        <li><a href="">FF V</a></li>
+                        <li><a href="">FF VI</a></li>
+                        <li><a href="">FFVII</a></li>
+                        <li><a href="">FF VIII</a></li>
+                        <li><a href="">FF IX</a></li>
+                        <li><a href="">FF X</a></li>
+                    </ul>
+                </path>
+            </svg>
+        </label>
+        <ul class="menu-desplegable">
+            <li><a href="ff-index.html">Inicio</a></li>
+            <li><a href="">FF II</a></li>
+            <li><a href="">FF III</a></li>
+            <li><a href="">FF IV</a></li>
+            <li><a href="">FF V</a></li>
+            <li><a href="">FF VI</a></li>
+            <li><a href="">FFVII</a></li>
+            <li><a href="">FF VIII</a></li>
+            <li><a href="">FF IX</a></li>
+            <li><a href="">FF X</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>
+            Final Fantasy (ファイナルファンタジー Fainaru Fantajī) es un videojuego de rol creado por Hironobu Sakaguchi, desarrollado y publicado en Japón por Square Co. en 1987; y publicado en Estados Unidos por Nintendo of America, Inc. en 1990. Es el primer juego de Square de la serie Final Fantasy. Originalmente lanzado para la consola Nintendo Entertainment System (también conocida como NES), Final Fantasy fue relanzado para varias consolas más y es frecuentemente incluido junto a Final Fantasy II en colecciones de juegos. La historia comienza con cuatro jóvenes llamados los Guerreros de la Luz, quienes llevan consigo uno de los cuatro orbes elementales del mundo, los cuales han sido oscurecidos por los cuatro Monstruos Elementales. Juntos, viajarán para derrotar a estas malvadas fuerzas, restablecer la luz a los orbes y salvar su mundo.
+        </p>
+        <div class="container">
+                <label>
+                    <input class="play-btn" type="checkbox" onclick="Play();">
+                    <div class="play-icon"></div>
+                    <div class="pause-icon"></div>
+                </label>
+            <audio src="../../musica/FF I OST - Opening Demo - Jose Miguel García Cedrés.mp3" loop id="profInstructions"></audio>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="../../javascrip/boton-musica.js"></script>
+</body>
+</html>

@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Instrument+Serif:ital@0;1&display=swap');
+/*
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fredericka-the-great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
 body {
     color: #555;
     background-color: rgb(226, 224, 224);
@@ -60,9 +80,10 @@ header img {
     color: white;
 }
 nav {
-    border-bottom: 2px solid black;
-    margin-right: 10%;
     display: flex;
+    position: sticky;
+    top: 0;
+    
 }
 nav a {
     text-decoration: none;
@@ -77,6 +98,8 @@ nav ul {
 }
 input:checked ~ ul {
     display: block;
+    background-color: rgb(226, 224, 224);
+    width: 100%;
 }
 input:checked ~ a {
     display: block;
@@ -88,6 +111,23 @@ nav li {
     list-style: none;
     border-bottom: 2px solid black;
 }
+main {
+    margin: 0 auto;
+    padding: 1em 1em;
+    max-width: 80%;
+    font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+h2,
+h3,
+strong {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333;
+    border-bottom: 1px solid black;
+}
 .slider-box {
     width: 500px;
     height: auto;
@@ -97,13 +137,13 @@ nav li {
 .slider-box ul {
     display: flex;
     padding: 0;
-    width: 700%;
-    animation: slide 5s infinite alternate ease-in-out;
+    width: 1000%;
+    animation: slide 20s infinite alternate ease-in-out;
 }
 .slider-box li {
     width: 100%;
     list-style: none;
-    position: relative;
+    
 }
 .texto {
     position: absolute;
@@ -118,6 +158,9 @@ nav li {
 .slider-box img {
     width: 100%;
 }
+#copi {
+    text-align: center;
+}
 @keyframes slide {
     /*0% {margin-left: 0;}
     20% {margin-left: 0;}
@@ -131,29 +174,39 @@ nav li {
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}*/
     0% {margin-left: 0;}
-    10% {margin-left: 0;}
+    5% {margin-left: 0;}
 
+    10% {margin-left: -100%;}
     15% {margin-left: -100%;}
-    25% {margin-left: -100%;}
     
-    30% {margin-left: -200%;}
-    40% {margin-left: -200%;}
+    20% {margin-left: -200%;}
+    25% {margin-left: -200%;}
 
-    45% {margin-left: -300%;}
-    55% {margin-left: -300%;}
+    30% {margin-left: -300%;}
+    35% {margin-left: -300%;}
 
-    60% {margin-left: -400%;}
-    70% {margin-left: -400%;}
+    40% {margin-left: -400%;}
+    45% {margin-left: -400%;}
 
-    75% {margin-left: -500%;}
-    85% {margin-left: -500%;}
+    50% {margin-left: -500%;}
+    55% {margin-left: -500%;}
 
-    90% {margin-left: -600%;}
-    100% {margin-left: -600%;}
+    60% {margin-left: -600%;}
+    65% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    75% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    85% {margin-left: -800%;}
+
+    90% {margin-left: -900%;}
+    100% {margin-left: -900%;}
 }
 
 @media (min-width: 1000px) {
     nav {
+        background-color: rgb(226, 224, 224);
         border-bottom: 2px solid black;
         margin-right: 10%;
         margin-left: 10%;
