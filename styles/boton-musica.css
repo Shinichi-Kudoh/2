@@ -1,7 +1,7 @@
 /* From Uiverse.io by csemszepp */ 
 .container {
-  width: 120px;
-  height: 120px;
+  width: 96px;
+  height: 96px;
   position: relative;
   border-radius: 50%;
 }
@@ -52,8 +52,8 @@
 
 .play-icon {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   left: 60%;
   top: 50%;
   background-color: rgb(114, 180, 197);
@@ -69,8 +69,8 @@
 
 .pause-icon {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
