@@ -129,7 +129,7 @@ strong {
     border-bottom: 1px solid black;
 }
 .slider-box {
-    width: 500px;
+    width: 100%;
     height: auto;
     margin: 50px auto 0;
     overflow: hidden;
@@ -222,5 +222,11 @@ strong {
     nav label {
         display: none;
     }
+    .slider-box {
+    width: 500px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
     
 }
