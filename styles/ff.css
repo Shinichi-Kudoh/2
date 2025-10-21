@@ -219,6 +219,13 @@ figure {
     height: auto;
     width: 100%;
 }
+.galeria-img img{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
 @media (min-width: 1000px) {
     nav {
         background-color: rgb(226, 224, 224);
@@ -253,6 +260,7 @@ figure {
         display: flex;
         float: right;
         width: auto;
+        padding-left: 10px;
     }
     #historia-3 img {
         float: left;
@@ -267,7 +275,7 @@ figure {
         align-items: center;
     }
     .galeria-img img {
-        height: 30%;
-        width: 30%;
+        height: auto;
+        width: 40%;
     }
 }
