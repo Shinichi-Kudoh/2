@@ -158,6 +158,7 @@ footer img {
     background-color: rgb(226, 224, 224);
     border-radius: 60%;
     bottom: 6%;
+    z-index: 90;
 }
 footer img:hover {
     background-color: rgb(187, 63, 63);
