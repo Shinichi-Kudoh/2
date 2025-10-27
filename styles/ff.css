@@ -128,6 +128,7 @@ strong {
     color: #333;
     border-bottom: 1px solid black;
 }
+/*galeria de imagenes de inicio*/
 .slider-box {
     width: 80%;
     height: auto;
@@ -231,6 +232,7 @@ figure {
     height: auto;
     width: 100%;
 }
+/*para el cambio de imagen a gif en ff7*/
 .cambio-img {
     position: relative;
     overflow: hidden;
@@ -257,6 +259,7 @@ figure {
 .cambio-img:hover img:last-child {
     opacity: 1;
 }
+/*tabla de ff7*/
 table {
     border: 1px solid black;
     text-align: center;
@@ -288,6 +291,8 @@ td {
     display: flex;
     flex-direction: column;
 }
+
+/*caja para musica*/
 .voice-chat-card {
   width: 300px;
   margin: 20px auto;
@@ -296,6 +301,15 @@ td {
   box-shadow: 2px 2px 10px #dc6118;
   padding: 10px;
   background-color: #e8e8e8;
+}
+#musica-ff7 {
+    border: 1px solid #4b8b96;
+    box-shadow: 2px 2px 10px #072d1a;
+}
+
+#musica-ff9 {
+    border: 1px solid #34261d;
+    box-shadow: 2px 2px 10px #b4893f;
 }
 
 .voice-chat-card-header {
@@ -344,6 +358,70 @@ td {
 
 audio {
   width: 100%;
+}
+/*para las imagenes de los personajes de ff9*/
+.cartas-img {
+    display: flex;
+    justify-content: center;
+}
+.card-ff9 {
+  width: 300px;
+  height: 254px;
+  border-radius: 4px;
+  background: rgb(226, 224, 224);
+  display: flex;
+    align-items: center;
+  gap: 5px;
+  padding: .4em;
+}
+.card-ff9 img{
+    position: relative;
+  display: inline-block;
+  height: 100%;
+}
+
+.card-ff9 p {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all .5s;
+  background: #212121;
+  border: 1px solid #ba8f41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-ff9 p:hover {
+  flex: 2.25;
+}
+
+.card-ff9 p span {
+    position: absolute;
+  max-width: 4em;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #d3a042;
+  letter-spacing: .1em;
+}
+
+.card-ff9 p:hover span {
+    z-index: 2;
+  transform: rotate(0);
+  background-color: rgb(32, 32, 32, 0.8);
+  border-radius: 3px;
+  width: 10%;
+}
+.ff-activo {
+    background-color: rgb(187, 185, 185);
+    border: #212121 solid 1px;
+    border-bottom: 2px solid black;
+    padding: 0px 5px;
 }
 /*
 .card {
