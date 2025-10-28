@@ -302,14 +302,41 @@ td {
   padding: 10px;
   background-color: #e8e8e8;
 }
+#musica-ff1{ 
+    border: 1px solid #154276;
+    box-shadow: 2px 2px 10px #82add1;
+}
+#musica-ff2{ 
+    border: 1px solid #83365f;
+    box-shadow: 2px 2px 10px #b95c8f;
+}
+#musica-ff3{ 
+    border: 1px solid #37a5df;
+    box-shadow: 2px 2px 10px #2e9b56;
+}
+#musica-ff4{ 
+    border: 1px solid #292581;
+    box-shadow: 2px 2px 10px #73297f;
+}
+#musica-ff5{ 
+    border: 1px solid #a042a3;
+    box-shadow: 2px 2px 10px #d6b1d9;
+}
+#musica-ff6{ 
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 10px #a20009;
+}
 #musica-ff7 {
     border: 1px solid #4b8b96;
     box-shadow: 2px 2px 10px #072d1a;
 }
-
 #musica-ff9 {
     border: 1px solid #34261d;
     box-shadow: 2px 2px 10px #b4893f;
+}
+#musica-ff10 {
+    border: 1px solid #faca00;
+    box-shadow: 2px 2px 10px #3f58ff;
 }
 
 .voice-chat-card-header {
@@ -415,7 +442,7 @@ audio {
   transform: rotate(0);
   background-color: rgb(32, 32, 32, 0.8);
   border-radius: 3px;
-  width: 10%;
+  width: 20%;
 }
 .ff-activo {
     background-color: rgb(187, 185, 185);
