@@ -280,6 +280,7 @@ td {
 .scale-img img{
     height: auto;
     width: 100%;
+    padding: 20px;
 }
 .scale-img img:hover {
     transform: scale(2);
@@ -449,6 +450,9 @@ audio {
     border: #212121 solid 1px;
     border-bottom: 2px solid black;
     padding: 0px 5px;
+}
+figure figcaption {
+    text-align: center;
 }
 /*
 .card {

@@ -166,6 +166,7 @@ iframe {
 }
 .tablas ul li:hover ul {
     display: block;
+    list-style: circle;
 }
 /*para la pestania moba*/
 #intro-moba img {
