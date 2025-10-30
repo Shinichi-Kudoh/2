@@ -454,6 +454,9 @@ audio {
 figure figcaption {
     text-align: center;
 }
+.descripcion-pj img {
+    float: left;
+}
 /*
 .card {
   width: 190px;
