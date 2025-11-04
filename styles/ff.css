@@ -38,6 +38,7 @@ header img {
     width: 30%;
 }
 .dropdown {
+    z-index: 9999;
     position: relative; /* Clave para posicionar el contenido */
     display: inline-block; /* Opcional, para que el div ocupe solo el contenido */
 }
@@ -83,7 +84,7 @@ nav {
     display: flex;
     position: sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 9998;
 }
 nav a {
     text-decoration: none;

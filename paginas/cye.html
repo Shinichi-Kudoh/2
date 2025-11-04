@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<title>Evangelion | Coches y evangelion</title>
-    <link rel="shortcut icon" href="imagenes/nerv-rojo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/redes.css">
+    <title>Coches y evangelion</title>
 </head>
+<link rel="shortcut icon" href="imagenes/nerv-rojo.png" type="image/x-icon">
+<link rel="stylesheet" href="../styles/styles.css">
+<link rel="stylesheet" href="../styles/cajas.css">
+<link rel="stylesheet" href="../styles/redes.css">
+<meta name="description" content="Pagina dedicada un poco sobre mis gustos">
 <body>
     <header id="inicio">
         <img src="https://preview.redd.it/eftjy5swogq71.png?width=760&format=png&auto=webp&s=f14947dc2d7f35355e88b41fd05ab45a47e79cba" alt="coche-rojo" id="nerv">
-        <h1>Evangelion</h1>
-        <div class="dropdown">
-            <button class="dropbtn">Otros temas</button>
-            <div class="dropdown-content">
-                <a href="../2/paginas/games/games.html">Games</a>
-                <a href="../2/paginas/FinalFantasy/ff-index.html">Final Fantasy</a>
-                <a href="#">Null</a>
+        <h1>Coches y Evangelion</h1>
+        <!--Menu desplegable al pasar el raton por encima-->
+        <p>
+            <!--<a href="">Por Saúl</a>-->
+            <!--Menu desplegable para ir a paginas no relacionadas con este tema-->
+            <div class="dropdown">
+                <button class="dropbtn">Otros temas</button>
+                <div class="dropdown-content">
+                    <a href="games/games.html">Games</a>
+                    <a href="FinalFantasy/ff-index.html">Final Fantasy</a>
+                    <a href="../index.html">Index</a>
+                </div>
             </div>
-        </div>
+        </p>
     </header>
+    <!--barra de navegavion-->
     <nav>
         <input type="checkbox" name="menu" id="menu">
         <label for="menu">
@@ -31,55 +38,59 @@
         </label>
         <ul>
             <li>
-                <a href="../index.html">Inicio</a>
+                <a href="coches.html">Coches</a>
             </li>
             <li>
-                <a href="../paginas/coches.html">Coches</a>
+                <a href="eva.html">Evangelion</a>
             </li>
             <li>
-                <a href="../paginas/musica.html">Musica</a>
+                <a href="musica.html">Musica</a>
             </li>
             <li>
-                <a href="../paginas/aespa.html">Aespa</a>
+                <a href="aespa.html">AESPA</a>
             </li>
         </ul>
     </nav>
     <main>
-        <section>
-            <div class="intro">
-                <h2>Introduccion</h2>
-                <p>Neon Genesis Evangelion (新世紀エヴァンゲリオン, Shin Seiki Evangerion), también conocida simplemente como Evangelion,o Eva,es una serie de anime creada por el estudio Gainax y dirigida por Hideaki Anno.<br>
-
-                    La historia de la obra se da lugar en un mundo futurista en el que una organización paramilitar llamada NERV protege a la humanidad de los ataques de seres de origen y naturaleza desconocidos, los «Ángeles», utilizando para ello bio mechas humanoides llamados Evangelion (acortado a EVA).
-                </p>
+        <div id="caja-inicio">
+            <div class="cajas" id="caja1">
+                <div class="texto">
+                    <h2>Sobre coches</h2>
+                    <p>Aunque no me guste conducir hay ciertos coches que me gustan mucho esteticamente y cada cual no tiene nada que ver con los otros.</p>
+                </div>
+                <div class="imagenes">
+                    <figure>
+                        <img src="../imagenes/911.jpg" alt="911" class="coches">
+                        <!--<figcaption>Foto de <a href="https://unsplash.com/es/@andru_ak?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Akabane</a> en <a href="https://unsplash.com/es/fotos/un-coche-aparcado-frente-a-una-gasolinera-n-VBWmziyVU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></figcaption>-->
+                    </figure>
+                </div>
             </div>
-        </section>
-        <section id="01">
-            <h2>EVA 01</h2>
-            <p>El EVA-01 fue creado por la organización GEHIRN en el Laboratorio de Evolución Artificial ubicado en Hakone y designado como Test Type (Modelo de Pruebas). A diferencia de las otras unidades, este EVA fue generado directamente de Lilith, y en consecuencia se le conoce como alter ego de Lilith (リリス の 分身, Ririsu no bunshin). En un nivel físico, el EVA-01 tiene las mismas características que un Evangelion basado en Adán (es decir, es parecido físicamente a las otras unidades), por lo que la naturaleza exacta de su relación con Lilith sigue siendo un tema de debate.</p>
-            <figure>
-                <img src="../imagenes/eva01.jpg" alt="eva01" class="coches">
-                <figcaption>Foto de <a href="https://unsplash.com/es/@declansun?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Declan Sun</a> en <a href="https://unsplash.com/es/fotos/una-estatua-de-un-hombre-sosteniendo-una-espada-gigante-I6zjy5xqp6o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></figcaption>
-            </figure>
-        </section>
-        <section id="02">
-            <h2>EVA 02</h2>
-            <p>El EVA-02 fue creado en la Tercera Rama de NERV ubicada en Alemania y designado como Production Model (Modelo de Producción). Su diseño corrige los errores cometidos durante la construcción de las anteriores unidades, por lo que es el primer Evangelion concebido específicamente para el combate contra los Ángeles.<br> Combina la eficiente construcción de la Unidad-01 con numerosas características especiales. Por ejemplo, la Unidad-02 es capaz de usar el equipamiento D-type visto en el episodio 10. Además, cuenta con un lanza agujas retráctil oculto en su hombro derecho, así como un cuchillo progresivo diferente llamado PK-2, que se asemeja a un cutter. Este cuchillo posee la capacidad única de reemplazar su hoja en caso de rotura. Al presionar un botón, una nueva hoja se extiende desde el mango, lo cual permite al piloto seguir utilizando el PK-2 sin interrupciones.</p>
-            <figure>
-                <img src="../imagenes/eva02.jpg" alt="eva02" class="coches">
-                <figcaption>Foto de <a href="https://mx.pinterest.com/pedeshtrian/">David Pires</a> en <a href="https://mx.pinterest.com/pin/433260426675890669/">Pinterest</a></figcaption>
-            </figure>
-        </section>
-        <section id="ramiel">
-            <h2>Rameil</h2>
-            <p>Ramiel (ラミエル, Ramieru) es el quinto ángel, siendo precedido por Shamshel y sucedido por Gaghiel. <br>
-                Es uno de los más grandes, el segundo más poderoso; y el primero en haber logrado penetrar físicamente el GeoFront. Fue derrotado durante la Operación Yashima.
-            </p>
-            <figure>
-                <img src="https://i.pinimg.com/originals/48/6c/4a/486c4a7317c907bf47f29d08bb64a3d0.gif" alt="ramiel" class="coches">
-                <figcaption>Foto de <a href="https://giphy.com/gifs/evangelion-WpHlqefhP3JDy">GIPHY</a> en <a href="https://es.pinterest.com/pin/evangelion-angels-ramiel-transform--607845280949751959/"> Pinterest</a></figcaption>
-            </figure>
-        </section>
+            <div class="cajas" id="caja2">
+                <div class="imagenes">
+                    <figure>
+                        <img src="../imagenes/eva01.jpg" alt="eva01" class="coches">
+                        <!--<figcaption>Foto de <a href="https://unsplash.com/es/@declansun?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Declan Sun</a> en <a href="https://unsplash.com/es/fotos/una-estatua-de-un-hombre-sosteniendo-una-espada-gigante-I6zjy5xqp6o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></figcaption>-->
+                    </figure>
+                </div>
+                <div class="texto">
+                    <h2>Sobre Evangelion</h2>
+                    <p>Es una de las series animadas que mas me gustan por no decir que la que mas y que habre vuetlo a ver desmasiadas veces.</p>
+                </div>
+                <!--<ul class="text-foto">
+                    <li></li>
+                    <li></li>
+                </ul>-->
+            </div>
+            <div class="cajas" id="caja3">
+                <div class="texto">
+                    <h2>Sobre Musica</h2>
+                    <p>Una pequeña seleccion de musica que me gusta, esta vez de origen asiatico y animes de la misma region.</p>
+                </div>
+                <div class="musica">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7p1LpBuLf9PmgSBUETVVp3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <!--Cajas puestas para que el copi este en el centro y las otras esten en horizontal (esta invertido) -->
@@ -166,15 +177,14 @@
                 </div>
                 <div id="caja-referencias">
                     <em>
-                        Foto de <a href="https://unsplash.com/es/@helloimnik?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nik</a> en <a href="https://unsplash.com/es/fotos/sedan-rojo-estacionado-junto-a-una-cerca-de-madera-UZFl6M_WbXo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-                    </em>
-                
-                    <em>
                         Foto de <a href="https://unsplash.com/es/@andru_ak?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Akabane</a> en <a href="https://unsplash.com/es/fotos/un-coche-aparcado-frente-a-una-gasolinera-n-VBWmziyVU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
                     </em>
                 
                     <em>
                         Foto de <a href="https://unsplash.com/es/@konstantin_with_camera?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Konstantin Remy</a> en <a href="https://unsplash.com/es/fotos/un-coche-blanco-conduciendo-por-una-pista-de-carreras-0NHbOx6OvXE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </em>
+                    <em>
+
                     </em>
                 </div>
             </div>
