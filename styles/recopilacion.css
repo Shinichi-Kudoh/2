@@ -45,6 +45,8 @@ body {
     background-image: url(../imagenes/fondo-estacion.png);
     /*background-position: center;*/
     background-repeat: no-repeat;
+    background-position-x: 79%;
+    background-position-y: 0%;
     color: #d08581;
     margin: 0;
     padding: 0;
