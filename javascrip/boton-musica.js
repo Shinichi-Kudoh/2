@@ -6,3 +6,5 @@ function Play() {
  profExplanations.pause(); 
  } 
  }
+const mitadVolumen = document.getElementById('profInstructions');
+mitadVolumen.volume = 0.5;

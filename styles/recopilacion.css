@@ -23,6 +23,9 @@ li {
     list-style: none;
     list-style: url(../imagenes/pixil-frame-1_5.png);
 }
+li a {
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 7px #fff, 0 0 5px #adf0f7, 0 0 25px #adf0f7;
+}
 /*
 li.eva {
     list-style: none;
@@ -40,19 +43,132 @@ li.ff {
 body {
     background-color:  #052230;
     background-image: url(../imagenes/fondo-estacion.png);
+    /*background-position: center;*/
+    background-repeat: no-repeat;
     color: #d08581;
     margin: 0;
     padding: 0;
     line-height: 1.5;
 }
+#titulo {
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px #ec817a, 0 0 50px #ec817a;
+}
 main {
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
+    font-size: larger;
     font-style: normal;
     margin: 0 auto;
     padding: 1em 1em;
     max-width: 80%;
 }
+#trav {
+    -webkit-animation: blink 0.05s infinite alternate;
+    -moz-animation: blink 0.05s infinite alternate;
+    -o-animation: blink 0.05s infinite alternate;
+    animation: blink 0.05s infinite alternate;
+}
+@-moz-keyframes blink {
+  70% {
+    opacity: 0.7;
+  }
+}
+@-webkit-keyframes blink {
+  45% {
+    opacity: 0.5;
+  }
+}
+@-o-keyframes blink {
+  70% {
+    opacity: 0.7;
+  }
+}
+@keyframes blink {
+  70% {
+    opacity: 0.7;
+  }
+}
+#fade {
+    -webkit-animation: fade 5s infinite alternate;
+    -moz-animation: fade 5s infinite alternate;
+    -o-animation: fade 5s infinite alternate;
+    animation: fade 5s infinite alternate;
+}
+#fadeletter {
+    -webkit-animation: fade 3s infinite alternate;
+    -moz-animation: fade 3s infinite alternate;
+    -o-animation: fade 3s infinite alternate;
+    animation: fade 3s infinite alternate;
+}
+@-moz-keyframes fade {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fade {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+
 .lore {
     background-color: #052230a6;
 }
@@ -70,6 +186,6 @@ footer {
     body {
         background-size: cover;
         background-repeat: no-repeat;
-        
+        background-position-y: 5%;
     }
 }
