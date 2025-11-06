@@ -388,6 +388,13 @@ td {
 audio {
   width: 100%;
 }
+.video {
+    text-align: center;
+}
+.video iframe{
+    width: 80%;
+    height: 150px;
+}
 /*para las imagenes de los personajes de ff9*/
 .cartas-img {
     display: flex;
@@ -554,7 +561,11 @@ figure figcaption {
     display: flex;
     flex-direction: row;
 }
-    /*
+    .video iframe{
+        width: 70%;
+        height: 500px;
+    }
+     /*
     #ff7-gif{
         text-align: center;
     }
