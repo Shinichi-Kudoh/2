@@ -55,23 +55,22 @@ header a:hover {
 }
 /*Configuracion de menu desplegable*//**/
 .dropdown {
-  position: relative; /* Clave para posicionar el contenido */
-  display: inline-block; /* Opcional, para que el div ocupe solo el contenido */
+    position: relative; /* Clave para posicionar el contenido */
+    display: inline-block; /* Opcional, para que el div ocupe solo el contenido */
 }
 .dropdown-content {
-  display: none; /* Oculto por defecto */
-  position: absolute; /* Posicionamiento absoluto */
-  z-index: 1; /* Para que esté por encima de otros elementos */
+    display: none; /* Oculto por defecto */
+    position: absolute; /* Posicionamiento absoluto */
+    z-index: 1; /* Para que esté por encima de otros elementos */
 }
 .dropdown-content a {
-  
-  background-color: rgb(71, 31, 31);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block; /* Para que cada enlace ocupe su propia línea */
+    background-color: rgb(71, 31, 31);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /* Para que cada enlace ocupe su propia línea */
 }
 .dropdown:hover .dropdown-content {
-  display: block; /* Muestra el submenú al pasar el ratón */
+    display: block; /* Muestra el submenú al pasar el ratón */
 }
 .dropbtn {
     background-color: transparent;

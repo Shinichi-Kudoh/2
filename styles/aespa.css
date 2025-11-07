@@ -73,9 +73,9 @@ input:checked #album {
 }
 @media (min-width: 1000px) {
     .derecha {
-    max-width: 25%;
-    padding-left: 10px;
-    border-left: 2px solid rgb(71, 31, 31);
+        max-width: 25%;
+        padding-left: 10px;
+        border-left: 2px solid rgb(71, 31, 31);
     }
     .derecha input{
         display: none;
@@ -91,16 +91,16 @@ input:checked #album {
         display: block;
     }
     .fotopeque {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 80vw;
-    margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 80vw;
+        margin: auto;
     }
     .fotopeque img {
-    width: calc(50% - 1em);
-    margin: 0.5em;
+        width: calc(50% - 1em);
+        margin: 0.5em;
     }
     #RP {
         float: left;

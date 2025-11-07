@@ -117,9 +117,9 @@ main {
     padding: 1em 1em;
     max-width: 80%;
     font-family: "Instrument Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: larger;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
 }
 h2,
 h3,
@@ -222,12 +222,12 @@ figure {
     width: 100%;
 }
 .galeria-img img{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: auto;
-        width: 100%;
-    }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
 #jobs img{
     text-align: center;
     height: auto;
@@ -296,13 +296,13 @@ td {
 
 /*caja para musica*/
 .voice-chat-card {
-  width: 300px;
-  margin: 20px auto;
-  border: 1px solid #891313;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px #dc6118;
-  padding: 10px;
-  background-color: #e8e8e8;
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #891313;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #dc6118;
+    padding: 10px;
+    background-color: #e8e8e8;
 }
 #musica-ff1{ 
     border: 1px solid #154276;
@@ -342,25 +342,25 @@ td {
 }
 
 .voice-chat-card-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 
 .avatar {
-  width: 50px;
-  height: 50px;
-  border-radius: 20%;
-  margin-right: 10px;
-  color: black;
-  background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    margin-right: 10px;
+    color: black;
+    background-color: #333;
 }
 
 .username {
-  margin: 0;
-  font-size: 18px;
-  color: black;
+    margin: 0;
+    font-size: 18px;
+    color: black;
 }
 /*
 .status {
@@ -372,21 +372,21 @@ td {
 }
 */
 .voice-chat-card-body {
-  padding: 10px;
+    padding: 10px;
 }
 
 .status-text {
-  font-size: 14px;
-  margin-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .audio-container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 audio {
-  width: 100%;
+    width: 100%;
 }
 .video {
     text-align: center;
@@ -401,57 +401,57 @@ audio {
     justify-content: center;
 }
 .card-ff9 {
-  width: 300px;
-  height: 254px;
-  border-radius: 4px;
-  background: rgb(226, 224, 224);
-  display: flex;
+    width: 300px;
+    height: 254px;
+    border-radius: 4px;
+    background: rgb(226, 224, 224);
+    display: flex;
     align-items: center;
-  gap: 5px;
-  padding: .4em;
+    gap: 5px;
+    padding: .4em;
 }
 .card-ff9 img{
     position: relative;
-  display: inline-block;
-  height: 100%;
+    display: inline-block;
+    height: 100%;
 }
 
 .card-ff9 p {
-  height: 100%;
-  flex: 1;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: all .5s;
-  background: #212121;
-  border: 1px solid #ba8f41;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .5s;
+    background: #212121;
+    border: 1px solid #ba8f41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-ff9 p:hover {
-  flex: 2.25;
+    flex: 2.25;
 }
 
 .card-ff9 p span {
     position: absolute;
-  max-width: 4em;
-  padding: .5em;
-  text-align: center;
-  transform: rotate(-90deg);
-  transition: all .5s;
-  text-transform: uppercase;
-  color: #d3a042;
-  letter-spacing: .1em;
+    max-width: 4em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #d3a042;
+    letter-spacing: .1em;
 }
 
 .card-ff9 p:hover span {
     z-index: 2;
-  transform: rotate(0);
-  background-color: rgb(32, 32, 32, 0.8);
-  border-radius: 3px;
-  width: 20%;
+    transform: rotate(0);
+    background-color: rgb(32, 32, 32, 0.8);
+    border-radius: 3px;
+    width: 20%;
 }
 .ff-activo {
     background-color: rgb(187, 185, 185);
@@ -509,10 +509,10 @@ figure figcaption {
         display: none;
     }
     .slider-box {
-    width: 500px;
-    height: auto;
-    margin: 50px auto 0;
-    overflow: hidden;
+        width: 500px;
+        height: auto;
+        margin: 50px auto 0;
+        overflow: hidden;
     }
 
     .imagenes {
@@ -558,8 +558,8 @@ figure figcaption {
         width: 40%;
     }
     .galeria-musica {
-    display: flex;
-    flex-direction: row;
+        display: flex;
+        flex-direction: row;
 }
     .video iframe{
         width: 70%;
